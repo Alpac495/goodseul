@@ -30,7 +30,7 @@ const Header = () => {
           <div>GoodSeul</div>
         </div>
       </div>
-      <div className='headerrightsection' onClick={toggleMenu}>
+      <div className='headerrightsection'>
         <div className='headermenu'>
           <input id="toggle" type="checkbox" onClick={toggleMenu}/>
           <label className="hamburger"htmlFor="toggle">
