@@ -20,7 +20,6 @@ const HeaderMenu = () => {
     const menuClassName = HeaderMenuModalOpen.isOpen
     ? 'HeaderMenumodal'
     : 'HeaderMenumodal closed';
-
     console.log("헤더메뉴",setHeaderMenuModal);
 
 return (
