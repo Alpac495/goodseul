@@ -17,8 +17,6 @@ function App() {
     {window.location.pathname === '/' ? <Header /> : <SubHeader/>}
       <Routes>
         <Route path='/' element={<Main />} />
-        <Route path='/login' element={<Login/> }/>
-        <Route path='/join' element={<Join/> }/>
         <Route path='/test' element={<Test1/>}/>
         <Route path='/play' element={<PlayMain/>}/>
         <Route path="/*" element={
