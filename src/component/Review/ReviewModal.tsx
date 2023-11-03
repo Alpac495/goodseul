@@ -48,6 +48,7 @@ export default function ReviewModal() {
     reviewLike(dto)
     .then(res => {
       if(res)
+      
       alert("공감하셨습니다.");
     })
   }

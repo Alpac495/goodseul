@@ -13,8 +13,10 @@ export const reviewLike = (dto:ReviewLikeDto) => {
 };
 
 export const reviewCancleLike = (r_idx:number) =>{
+  console.log("ddd" + r_idx);
   return axiosPunch({
+    
     method:'delete',
-    url:`${serverUrl}/api/lv1/like?r_idx?=${r_idx}`
+    url:`${serverUrl}/api/lv1/like/${r_idx}ddd`
   })
 }
